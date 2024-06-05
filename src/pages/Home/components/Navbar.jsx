@@ -1,5 +1,5 @@
 import s from "../styles/Navbar.module.css";
-import logo from "../../../assets/logo.png"
+import logo from "../../../assets/hjzo-logo.jpg"
 
 function Navbar(){  
 

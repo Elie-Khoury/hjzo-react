@@ -32,8 +32,8 @@ const HeroCarousel = () => {
             showIndicators={false}
             showThumbs={false}
             showStatus={false}
-            transitionTime={750}
-            interval={3000}
+            transitionTime={150}
+            interval={5000}
           >
             {images.map((image) => (
               <img src={image.url} key={image.id} />
