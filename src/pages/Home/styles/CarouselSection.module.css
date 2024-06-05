@@ -14,6 +14,9 @@ swiper-slide img {
     object-fit: cover;
     border-radius: 10px;
 }
+.swiper-pagination {
+    display: none !important;
+}
 .crslSection{
     width: 90%;
     margin: auto;

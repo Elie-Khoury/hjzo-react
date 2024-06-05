@@ -1,0 +1,20 @@
+.header{
+	padding: 3% 5% 3% 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+.logoContainer{
+	width: 10%;
+	min-width: 60px;
+}
+.logoContainer img{
+	width: 100%;
+}
+.iconContainer{
+	width: 10%;
+}
+.iconContainer img{
+	width: 100%;
+}
