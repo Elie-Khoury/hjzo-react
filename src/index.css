@@ -1,0 +1,61 @@
+:root{
+	--ff-primary: 'Poppins';
+
+	--fs-100: ;
+	
+	--fw-1: ;
+
+	--clr-primary: ;
+
+	--clr-secondary: ;
+}
+
+*, 
+*::after, 
+*::before{
+	box-sizing: border-box;
+}
+*{
+	margin: 0%;
+	padding: 0%;
+	font: inherit;
+}
+html:focus-within{
+	scroll-behavior: smooth;
+}
+html,
+body{
+	height: 100%;
+}
+body{
+	text-rendering: optimizeSpeed;
+	font-family: var(--ff-primary);
+	color: black;
+}
+img,
+svg,
+picture{
+	max-width: 100%;
+	display: block;
+}
+ul,
+ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+@media (prefers-reduced-motion: reduce){
+	html:focus-within{
+		scroll-behavior: auto;
+	}
+	*,
+	*::after,
+	*::before{
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}

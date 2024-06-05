@@ -1,0 +1,15 @@
+
+.carouselContainer{
+  margin: 50px 0px;
+}
+.crsl {
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+.crsl img{
+  border-radius: 10px;
+}
+.slide{
+  border-radius: 10px;
+}

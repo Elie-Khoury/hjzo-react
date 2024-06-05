@@ -1,0 +1,9 @@
+
+.sportBoxList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5%;
+    gap: 20px;
+}

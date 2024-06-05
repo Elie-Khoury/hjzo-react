@@ -1,0 +1,63 @@
+nav{
+	padding: 3% 5% 3% 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+    background-color: #151515;
+}
+.logoContainer{
+	width: 10%;
+	min-width: 120px;
+}
+.logoContainer img{
+	width: 100%;
+}
+.navPaths{
+	background-color: #151515;
+	height: 100vh; width: 100%;
+	padding-left: 5%; padding-top: 20%;
+	max-width: 250px;
+	position: fixed;
+	top: 0%; right: -450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	gap: 3em;
+	transition: .3s ease;
+	z-index: 1;
+}
+.navPaths.active{
+	right: 0;
+}
+.hamburgerMenu{
+	height: 50px; width: 50px;
+	position: relative;
+	z-index: 2;
+}
+.hamburgerMenu span{
+	height: 4px; width: 70%;
+	background-color: white;
+	border-radius: 25px;
+	position: absolute;
+	top: 50%; left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s ease;
+}
+.hamburgerMenu span:nth-child(1){
+	top: 25%;
+}
+.hamburgerMenu span:nth-child(3){
+	top: 75%;
+}
+.hamburgerMenu.active span:nth-child(1){
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+.hamburgerMenu.active span:nth-child(2){
+	opacity: 0;
+}
+.hamburgerMenu.active span:nth-child(3){
+	top: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+}

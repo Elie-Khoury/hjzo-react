@@ -1,0 +1,18 @@
+
+swiper-container {
+    width: 90%; height: 100%;
+    margin-left: 10%;
+  }
+
+swiper-slide {
+    width: 400px;
+    background: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    width: 100%;
+    object-fit: cover;
+}
