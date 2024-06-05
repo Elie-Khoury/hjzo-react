@@ -1,18 +1,28 @@
 
 swiper-container {
-    width: 90%; height: 100%;
-    margin-left: 10%;
-  }
+}
 
 swiper-slide {
-    width: 400px;
-    background: #151515;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 swiper-slide img {
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
+}
+.crslSection{
+    width: 90%;
+    margin: auto;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.1em;
+    margin-top: 2em;
+    margin-bottom: 20px;
 }

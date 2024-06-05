@@ -33,15 +33,15 @@ function CarouselSection(){
         url: court3,
     },
     {
-        id: "1",
+        id: "4",
         url: court,
     },
     {
-        id: "2",
+        id: "5",
         url: court2,
     },
     {
-      id: "3",
+      id: "6",
       url: court3,
     },
   ];
@@ -49,18 +49,55 @@ function CarouselSection(){
   
   return(
     <>
-      <swiper-container class="mySwiper" pagination="false" pagination-clickable="false" slides-per-view="2.5"
-        space-between="20" free-mode="true"
-        >
-          {images.map((image) => (
-            <>
-              <swiper-slide>
-                <img src={image.url} key={image.id} />
-              </swiper-slide>
-            </>
-          ))}
-      </swiper-container>
+      <div className={s.crslSection}>
+        <div className={s.text}>
+          <h1>New Courts 🎇</h1>
+          <h2>The latest courts available on HJZO!</h2>
+        </div>
+        <swiper-container className="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="2.5"
+          space-between="20" free-mode="true"
+          >
+            {images.map((image) => (
+              <>
+                <swiper-slide>
+                  <img src={image.url} key={image.id} />
+                </swiper-slide>
+              </>
+            ))}
+        </swiper-container>
+      </div>
+      <div className={s.crslSection}>
+        <div className={s.text}>
+          <h1>Courts Nearby 🗺</h1>
+          <h2>Checkout these courts near your location.</h2>
+        </div>
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="2"
+          space-between="20" free-mode="true"
+          >
+            {images.map((image) => (
+              <>
+                <swiper-slide>
+                  <img src={image.url} key={image.id} />
+                </swiper-slide>
+              </>
+            ))}
+        </swiper-container>
+      </div>
     </>
+    
+  //   <swiper-container class="mySwiper" pagination="false" pagination-clickable="false" slides-per-view="3"
+  //   space-between="30" free-mode="true">
+  //   <swiper-slide>Slide 1</swiper-slide>
+  //   <swiper-slide>Slide 2</swiper-slide>
+  //   <swiper-slide>Slide 3</swiper-slide>
+  //   <swiper-slide>Slide 4</swiper-slide>
+  //   <swiper-slide>Slide 5</swiper-slide>
+  //   <swiper-slide>Slide 6</swiper-slide>
+  //   <swiper-slide>Slide 7</swiper-slide>
+  //   <swiper-slide>Slide 8</swiper-slide>
+  //   <swiper-slide>Slide 9</swiper-slide>
+  // </swiper-container>
+      
   )
 }
 

@@ -66,11 +66,12 @@ a{
 
 h1{
 	font-size: var(--fs-300);
-	font-weight: 400;
+	font-weight: 600;
 }
 h2{
 	font-size: var(--fs-200);
 	font-weight: 400;
+	color: rgb(170, 170, 170);
 }
 h3{
 	font-size: var(--fs-100);
