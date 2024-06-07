@@ -10,6 +10,9 @@
 	--clr-primary: ;
 
 	--clr-secondary: ;
+
+	--swiper-pagination-bullet-opacity: 0;
+	--swiper-pagination-bullet-inactive-opacity: 0;
 }
 
 *, 

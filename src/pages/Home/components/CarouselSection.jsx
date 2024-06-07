@@ -43,7 +43,7 @@ function CarouselSection(){
         <swiper-container 
           className="mySwiper" 
           pagination="true" 
-          pagination-clickable="true" 
+          pagination-clickable="false" 
           slides-per-view="1.5"
           space-between="20" 
           free-mode="true"
@@ -65,7 +65,7 @@ function CarouselSection(){
         <swiper-container 
           class="mySwiper" 
           pagination="true" 
-          pagination-clickable="true" 
+          pagination-clickable="false" 
           slides-per-view="1.5"
           space-between="20" 
           free-mode="true"
@@ -87,7 +87,7 @@ function CarouselSection(){
         <swiper-container 
           className="mySwiper" 
           pagination="true" 
-          pagination-clickable="true" 
+          pagination-clickable="false" 
           slides-per-view="1.5"
           space-between="20" 
           free-mode="true"

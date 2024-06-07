@@ -11,6 +11,7 @@ function Home(){
         <>
             <Header /> 
             <HeroCarousel />
+
             <div className={s.sportBoxList}>
                 <SportBox 
                     id="1"

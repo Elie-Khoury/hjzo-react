@@ -4,6 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import court from "../../../assets/court1.jpg"
 import court2 from "../../../assets/court2.jpg"
 import court3 from "../../../assets/court3.jpg"
+
  
 const HeroCarousel = () => {
 
