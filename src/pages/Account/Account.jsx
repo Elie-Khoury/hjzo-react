@@ -17,7 +17,6 @@ function Account(){
     return(
         <div className={s.container}>
             <div className={s.header}>
-                <img src={DefaultPic} alt="" />
                 <div className={s.addPhotoContainer}>
                     <h1>Add Photo</h1>
                 </div>
