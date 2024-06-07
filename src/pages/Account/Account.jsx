@@ -1,6 +1,5 @@
 import s from "./styles/Account.module.css";
 import ProfileContent from "./components/ProfileContent.jsx";
-import DefaultPic from "../../assets/default-pp.jpg";
 import Navbar from "../../global-Components/Navbar.jsx";
 
 function Account(){
