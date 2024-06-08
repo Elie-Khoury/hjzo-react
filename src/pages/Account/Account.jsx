@@ -1,6 +1,5 @@
 import s from "./styles/Account.module.css";
 import ProfileContent from "./components/ProfileContent.jsx";
-import Navbar from "../../global-Components/Navbar.jsx";
 
 function Account(){
 
@@ -28,7 +27,6 @@ function Account(){
             <div className={s.btnContainer}>
                 <button><h2>Edit Profile</h2></button>
             </div>
-            <Navbar />
         </div>
     )
 }

@@ -45,11 +45,6 @@ function Home(){
                 />
             </div>
             <CarouselSection />
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <Navbar />
         </>
     )
 }
