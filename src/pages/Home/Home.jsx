@@ -3,7 +3,6 @@ import Header from "./components/Header.jsx";
 import HeroCarousel from "./components/HeroCarousel.jsx";
 import SportBox from "./components/SportBox.jsx";
 import CarouselSection from "./components/CarouselSection.jsx";
-import Navbar from "../../global-Components/Navbar.jsx";
 
 function Home(){
 

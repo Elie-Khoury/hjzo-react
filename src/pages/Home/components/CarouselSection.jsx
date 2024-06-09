@@ -40,7 +40,7 @@ function CarouselSection(){
           <h1>New Courts 🎇</h1>
           <h2>The latest courts available on HJZO!</h2>
         </div>
-        <swiper-container 
+        <swiper-container
           className="mySwiper" 
           pagination="true" 
           pagination-clickable="false" 
@@ -62,7 +62,7 @@ function CarouselSection(){
           <h1>Courts Nearby 🗺</h1>
           <h2>Checkout these courts near your location.</h2>
         </div>
-        <swiper-container 
+        <swiper-container
           class="mySwiper" 
           pagination="true" 
           pagination-clickable="false" 
@@ -84,7 +84,7 @@ function CarouselSection(){
           <h1>New Courts 🎇</h1>
           <h2>The latest courts available on HJZO!</h2>
         </div>
-        <swiper-container 
+        <swiper-container
           className="mySwiper" 
           pagination="true" 
           pagination-clickable="false" 
